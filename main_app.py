@@ -7,7 +7,7 @@ import datetime
 from sentence_transformers import SentenceTransformer
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCoe0a3mDH_EeKwZN-G8WAF4FX-e878p80")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Load MiniLM model for query embedding
 embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
