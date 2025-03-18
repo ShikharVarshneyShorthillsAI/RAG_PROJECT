@@ -10,12 +10,12 @@ import torch
 import re
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCoe0a3mDH_EeKwZN-G8WAF4FX-e878p80")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Paths
-test_set_folder = "/home/shtlp_0042/Desktop/RAG/generated_testset"
-generated_folder = "/home/shtlp_0042/Desktop/RAG/generated_answers"
-output_json_path = "/home/shtlp_0042/Desktop/RAG/evaluation_results.json"
+test_set_folder = "PATH_TO_TEST_SET"
+generated_folder = "PATH_TO_GENERATED_ANSWERS_BY_RAG"
+output_json_path = "OUTPUT_FILE_PATH"
 
 # Load metrics
 rouge_metric = load("rouge")
